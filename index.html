@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Management System — Inventory, Billing &amp; Supplier Management</title>
+<meta name="description" content="Stock Management System is an Android app for inventory, billing, and supplier management, built by Amandeep Singh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="nav-brand" href="index.html">
+      <span class="brand-mark">SM</span>
+      Stock Management System
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-icon">SM</div>
+      <h1>Stock Management System</h1>
+      <p class="subtitle">Inventory, Billing &amp; Supplier Management</p>
+      <p class="lede">A complete, offline-first Android app that helps shops and canteens track stock, bill customers, and manage suppliers — all from one place.</p>
+      <div class="badge-row">
+        <span class="badge-pill">Works offline</span>
+        <span class="badge-pill">Built for small businesses</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Features</div>
+        <h2>Everything your shop needs, in one app</h2>
+      </div>
+      <div class="feature-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+          </div>
+          <h3>Inventory</h3>
+          <p>Track stock levels in real time, organize items by category, and get ahead of low-stock situations.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h2l2.4 12.2a2 2 0 002 1.8h7.2a2 2 0 002-1.8L20 8H6"/><circle cx="9" cy="21" r="1.2"/><circle cx="17" cy="21" r="1.2"/></svg>
+          </div>
+          <h3>Sales</h3>
+          <p>Generate bills quickly, record cash and loan sales, and keep a running ledger of every transaction.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h2l1 5m0 0l1.5 8.5a2 2 0 002 1.5h8a2 2 0 002-1.8L21 8H6"/><path d="M9 21a1 1 0 100-2 1 1 0 000 2zM18 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
+          </div>
+          <h3>Purchase</h3>
+          <p>Log supplier purchases and quotations, and update stock automatically as new goods arrive.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h16"/><rect x="6" y="11" width="3" height="8" rx="0.5"/><rect x="11" y="7" width="3" height="12" rx="0.5"/><rect x="16" y="14" width="3" height="5" rx="0.5"/></svg>
+          </div>
+          <h3>Stock Reports</h3>
+          <p>Review daily, weekly, and monthly reports to see what's moving, what's not, and where money is going.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.7-5 6-5s6 2 6 5"/><circle cx="17.5" cy="9.5" r="2.3"/><path d="M15.5 20c.2-2.4 1.8-4 4-4.3"/></svg>
+          </div>
+          <h3>Supplier Records</h3>
+          <p>Keep a dedicated record for every supplier — orders, dues, and purchase history in one view.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="about">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">About</div>
+        <h2>About the developer</h2>
+      </div>
+      <div class="about-card">
+        <div class="avatar">AS</div>
+        <div>
+          <h3>Amandeep Singh</h3>
+          <p>Stock Management System is built by Amandeep Singh, an independent Android developer focused on practical, offline-first tools for small businesses. The app grew out of everyday stock and billing needs and has evolved into a standalone product for shops and canteens looking to move off paper registers without depending on a constant internet connection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="get-in-touch">
+    <div class="container">
+      <div class="contact-panel">
+        <h3>Get in touch</h3>
+        <p>Questions, feedback, or support requests are welcome any time.</p>
+        <a class="email-pill" href="mailto:youremail@example.com">youremail@example.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; <span data-year></span> Amandeep Singh. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

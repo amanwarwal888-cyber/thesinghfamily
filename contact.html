@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Stock Management System</title>
+<meta name="description" content="Contact Amandeep Singh, developer of the Stock Management System Android app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="nav-brand" href="index.html">
+      <span class="brand-mark">SM</span>
+      Stock Management System
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Contact</div>
+        <h2>Get in touch</h2>
+        <p>Questions, feedback, or support requests for Stock Management System are welcome any time.</p>
+      </div>
+
+      <div class="contact-panel" style="margin-bottom: 40px;">
+        <h3>Email</h3>
+        <a class="email-pill" href="mailto:youremail@example.com">youremail@example.com</a>
+      </div>
+
+      <form class="contact-form" id="contact-form" data-contact-email="youremail@example.com" novalidate>
+        <div class="form-field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" autocomplete="name">
+          <p class="form-error">Please enter your name.</p>
+        </div>
+
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" autocomplete="email">
+          <p class="form-error">Please enter a valid email address.</p>
+        </div>
+
+        <div class="form-field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message"></textarea>
+          <p class="form-error">Please enter a message.</p>
+        </div>
+
+        <button type="submit" class="btn-primary">Send message</button>
+        <p class="form-status" id="form-status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; <span data-year></span> Amandeep Singh. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
