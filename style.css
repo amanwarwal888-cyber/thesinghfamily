@@ -314,6 +314,54 @@ section.alt { background: var(--surface-alt); }
 .feature-card p { margin: 0; font-size: 0.92rem; }
 
 /* ---------------------------------------------------------------------- */
+/* App list (multi-app home page)                                         */
+/* ---------------------------------------------------------------------- */
+
+.app-list {
+  display: grid;
+  gap: 16px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.app-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  box-shadow: var(--shadow-1);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.app-card:hover { box-shadow: var(--shadow-2); transform: translateY(-1px); }
+
+.app-card a.app-link { color: var(--text); text-decoration: none; display: block; }
+.app-card a.app-link:hover h3 { color: var(--primary-dark); }
+
+.app-card h3 { font-size: 1.05rem; }
+.app-card p { margin: 4px 0 0; font-size: 0.92rem; max-width: 48ch; }
+
+.app-status {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 11px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.app-status.live { background: var(--primary-tint); color: var(--primary-dark); }
+.app-status.soon { background: var(--surface-alt); color: var(--text-secondary); border: 1px solid var(--divider); }
+
+@media (max-width: 480px) {
+  .app-card { flex-direction: column; }
+}
+
+/* ---------------------------------------------------------------------- */
 /* About / developer card                                                 */
 /* ---------------------------------------------------------------------- */
 
