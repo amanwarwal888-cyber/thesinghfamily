@@ -34,7 +34,7 @@
   <section class="legal-page">
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p class="updated-date">Last updated: <span id="policy-date"></span></p>
+      <p class="updated-date">Last updated: 28 September 2026</p>
 
       <p>This Privacy Policy explains how the applications developed and published by Amandeep Singh ("we", "us", "the developer") for Android, iOS, and desktop, including Stock Management System and any other apps that link to this policy (collectively, "the apps"), handle information when you use them.</p>
 
@@ -49,19 +49,32 @@
       <p>This information is data you choose to enter for the purpose of running each app's features. We do not collect this data for any purpose beyond providing those features.</p>
 
       <h2>How Your Data Is Stored</h2>
-      <p>The apps may store inventory, business, or personal data locally on your device, in cloud storage, or a combination of both, depending on which app, features, and settings you use. Where cloud storage is used, it exists to let you access or back up your own records, not to make your data available to third parties.</p>
+      <p>Where and how data is stored depends on the app. The specific behaviour of each app is described in its own section below. Wherever any app offers cloud storage, it exists only to let you access or back up your own records, never to make your data available to third parties.</p>
+
+      <h2>Stock Management System (Android and desktop)</h2>
+      <p>Stock Management System works <strong>entirely offline</strong>. In detail:</p>
+      <ul>
+        <li>All records you enter are stored <strong>only on your own device</strong>.</li>
+        <li>There are no user accounts, no sign-in, and no cloud service.</li>
+        <li>The app does not connect to the internet and makes no network requests.</li>
+        <li>It contains no advertising, no analytics, no crash-reporting, and no third-party tracking or SDKs.</li>
+        <li>No data is collected by, sent to, or shared with the developer or anyone else.</li>
+        <li>It does not access your camera, microphone, location, contacts, or phone number.</li>
+      </ul>
+      <p><strong>Files you export and backups.</strong> When you export a report (Excel, PDF, or CSV) or a backup, the app saves the file to your device's Downloads folder. The app also keeps an up-to-date backup copy of your records in the Downloads folder automatically. These files contain the same business records you entered, and they are stored on your device like any other file, so anyone or any app with access to your device's file storage can open them. You control these files: you may move, share, or delete them at any time. On older Android versions (Android 9 and below) the app asks for storage permission solely so it can save these files; on newer versions no permission is needed.</p>
+      <p>If you choose to share an exported file or backup with another app or person, that is your own decision, and the handling of that copy is outside the control of this app.</p>
 
       <h2>Data Sharing</h2>
       <p><strong>We do not sell personal data.</strong> Business and personal information entered into any of our apps is not sold, rented, or shared with third parties for advertising or marketing purposes.</p>
 
       <h2>Data Security</h2>
-      <p>We take reasonable measures to protect the information handled by our apps. No method of electronic storage or transmission is completely secure, so while we work to protect your data, we cannot guarantee absolute security.</p>
+      <p>Because Stock Management System keeps your records only on your device and never sends them anywhere, your data is protected by your device's own security. We recommend using a screen lock and keeping your backup files somewhere you trust. We take reasonable measures to protect the information handled by our apps, but no method of electronic storage is completely secure, so we cannot guarantee absolute security.</p>
 
-      <h2>Your Choices</h2>
-      <p>You can review, edit, or delete the records you have entered directly within each app at any time. Uninstalling an app removes its locally stored data from your device, except for any data you have separately backed up or synced to cloud storage.</p>
+      <h2>Your Choices and Deleting Your Data</h2>
+      <p>You can review, edit, or delete the records you have entered directly within each app at any time. Uninstalling an app removes the records stored inside the app. Exported files and backups saved in your Downloads folder are separate files and are <strong>not</strong> removed when you uninstall, so delete them yourself if you no longer want them. Because we never receive your data, there is nothing for us to delete on our side.</p>
 
       <h2>Children's Privacy</h2>
-      <p>Our apps are intended for business, administrative, and general personal use, and are not directed at children.</p>
+      <p>Our apps are intended for business, administrative, and general personal use, and are not directed at children under 18.</p>
 
       <h2>Changes to This Policy</h2>
       <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised "last updated" date.</p>
@@ -85,9 +98,5 @@
 </footer>
 
 <script src="script.js"></script>
-<script>
-  document.getElementById("policy-date").textContent =
-    new Date().toLocaleDateString("en-IN", { year: "numeric", month: "long", day: "numeric" });
-</script>
 </body>
 </html>
