@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — [APP NAME]</title>
+<meta name="description" content="Privacy Policy for the [APP NAME] app by Amandeep Singh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="nav-brand" href="index.html">
+      <span class="brand-mark">AS</span>
+      Amandeep Singh
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!--
+HOW TO USE THIS TEMPLATE (delete this comment before publishing)
+1. Copy this file, name it privacy-YOUR-APP-NAME.html (lowercase, hyphens), and upload it next to privacy.html.
+2. Replace every [BRACKETED] item. Search the file for "[" to find them all.
+3. This template is for an app that stays fully offline and collects nothing. If the app has accounts, a server, cloud storage, analytics, ads, or any SDK that sends data anywhere, use the "online app" template instead, and do NOT keep the statements in "In Short" below.
+4. Every statement must be true for the app as released. Check it against the Play Console Data safety answers, which must match.
+5. Add the app to the list on privacy.html and add a "Privacy Policy for this app" link on index.html.
+6. In Play Console, use THIS page's URL as the app's privacy policy link.
+-->
+<main>
+  <section class="legal-page">
+    <div class="container">
+      <p><a href="privacy.html">&larr; Common Privacy Policy for all apps</a></p>
+      <h1>Privacy Policy — [APP NAME]</h1>
+      <p class="updated-date">Last updated: [DATE]</p>
+
+      <p>This policy applies to <strong>[APP NAME]</strong> (Android package <code>[com.your.package]</code>) [and its desktop version], developed and published by Amandeep Singh ("we", "us", "the developer"). It should be read together with our <a href="privacy.html">common Privacy Policy</a>. Where they differ, this policy applies to this app.</p>
+
+      <h2>In Short</h2>
+      <ul>
+        <li>The app works <strong>entirely offline</strong>. Your data is stored <strong>only on your own device</strong>.</li>
+        <li>There is <strong>no account</strong> and no sign-in.</li>
+        <li>The app does <strong>not connect to the internet</strong>.</li>
+        <li>It contains <strong>no advertising, no analytics, no crash reporting, and no third-party SDKs</strong>.</li>
+        <li><strong>No data is collected by, sent to, or shared with</strong> the developer or anyone else.</li>
+        <li>[List any device features it does NOT use, e.g. camera, microphone, location, contacts.]</li>
+      </ul>
+
+      <h2>What the App Handles</h2>
+      <p>[Describe the information the person types in or imports, as a short list.]</p>
+
+      <h2>Where Your Data Is Stored</h2>
+      <p>[Explain: stored on the device only; no server; no cloud.]</p>
+
+      <h2>Files, Exports and Backups</h2>
+      <p>[Describe any files the app saves (where, and that they stay after uninstall), or write: "The app does not save files outside its own private storage."]</p>
+
+      <h2>Permissions</h2>
+      <p>[List each permission and exactly why, or write: "The app requests no permissions."]</p>
+
+      <h2>Sharing of Data</h2>
+      <p>We do not collect your data, so we have nothing to sell, rent, or share. The app contains no third-party code that receives your data.</p>
+
+      <h2>Data Security</h2>
+      <p>[Explain how the data is protected, e.g. by the device's own security.]</p>
+
+      <h2>Retention and Deleting Your Data</h2>
+      <p>[Explain what uninstalling removes and what it does not.]</p>
+
+      <h2>Children's Privacy</h2>
+      <p>This app is not directed at children under 18.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>If the app's handling of data ever changes, we will update this policy before that version is released and show a revised "last updated" date on this page.</p>
+
+      <h2>Contact Us</h2>
+      <p>Questions about this policy or about the app? Contact Amandeep Singh at:</p>
+      <p><a href="mailto:amanwarwal888@gmail.com">amanwarwal888@gmail.com</a></p>
+      <p>Postal address and phone numbers are on the <a href="contact.html">Contact</a> page.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; <span data-year></span> Amandeep Singh. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
