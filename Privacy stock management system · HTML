@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Stock Management System</title>
+<meta name="description" content="Privacy Policy for the Stock Management System app by Amandeep Singh: fully offline, no account, no data collected.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="nav-brand" href="index.html">
+      <span class="brand-mark">AS</span>
+      Amandeep Singh
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="legal-page">
+    <div class="container">
+      <p><a href="privacy.html">&larr; Common Privacy Policy for all apps</a></p>
+      <h1>Privacy Policy — Stock Management System</h1>
+      <p class="updated-date">Last updated: 28 September 2026</p>
+
+      <p>This policy applies to <strong>Stock Management System</strong> (Android package <code>com.billstock.manager</code>) and its Windows desktop version, developed and published by Amandeep Singh ("we", "us", "the developer"). It should be read together with our <a href="privacy.html">common Privacy Policy</a>. Where they differ, this policy applies to this app.</p>
+
+      <h2>In Short</h2>
+      <ul>
+        <li>The app works <strong>entirely offline</strong>. Your records are stored <strong>only on your own device</strong>.</li>
+        <li>There is <strong>no account</strong> and no sign-in.</li>
+        <li>The app does <strong>not connect to the internet</strong> and makes no network requests.</li>
+        <li>It contains <strong>no advertising, no analytics, no crash reporting, and no third-party SDKs</strong>.</li>
+        <li><strong>No data is collected by, sent to, or shared with</strong> the developer or anyone else.</li>
+        <li>It does not access your camera, microphone, location, contacts, or phone number.</li>
+      </ul>
+
+      <h2>What the App Handles</h2>
+      <p>The app stores the business records that you type in or import yourself, such as:</p>
+      <ul>
+        <li>Inventory and stock items, rates, and stock quantities</li>
+        <li>Sales and billing records, including loan and swipe sales and the names you enter against them</li>
+        <li>Purchase records and supplier quotations</li>
+        <li>Supplier details, payments, and dues</li>
+        <li>Cashbook, monthly summary, and dead stock records</li>
+      </ul>
+      <p>This information stays inside the app on your device. We never see it.</p>
+
+      <h2>Where Your Data Is Stored</h2>
+      <p>Your records are stored in the app's private storage on your Android device, or on your computer for the desktop version. The Android app is set not to take part in Android's automatic cloud backup, so its data is not uploaded to Google's backup service. There is no server, no cloud database, and no account.</p>
+
+      <h2>Exported Files and Backups</h2>
+      <p>When you export a report (Excel, PDF, or CSV) or a backup, the app saves the file to your device's <strong>Downloads</strong> folder. The app also keeps an up-to-date backup copy of your records in the Downloads folder automatically. On the desktop version, automatic backups are saved to a folder that you choose.</p>
+      <p>These files contain the same business records you entered. They are stored like any other file on your device, so anyone, or any app, with access to your device's file storage can open them. You control these files and can move, share, or delete them at any time.</p>
+
+      <h2>Files You Choose and Printing</h2>
+      <ul>
+        <li>The app reads a file only when you pick it yourself, for example to restore a backup or import a CSV, using your device's own file picker.</li>
+        <li>If you print a bill or save it as a PDF, Android's print system handles the document. If you print to a network or cloud printer, that printer service receives the document under its own privacy terms.</li>
+        <li>If you share an exported file with another app or person, that is your own choice, and how that copy is handled is outside the control of this app.</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <p>On Android 9 and below, the app asks for storage permission solely so it can save your exported files and backups to Downloads. On Android 10 and above it needs no permission for this. The app requests no other permissions.</p>
+
+      <h2>Sharing of Data</h2>
+      <p>We do not collect your data, so we have nothing to sell, rent, or share. The app contains no third-party code that receives your data.</p>
+
+      <h2>Data Security</h2>
+      <p>Because the app keeps your records on your device and never sends them anywhere, they are protected by your device's own security. We recommend using a screen lock and keeping your backup files somewhere you trust. The app is built to load only its own bundled content and to block all network connections. No method of electronic storage is completely secure, so we cannot guarantee absolute security.</p>
+
+      <h2>Retention and Deleting Your Data</h2>
+      <p>Your records stay on your device until you delete them inside the app or uninstall the app. Uninstalling removes the records stored inside the app. Exported files and backups in your Downloads folder are separate files and are <strong>not</strong> removed when you uninstall, so delete them yourself if you no longer want them. Because we never receive your data, there is nothing for us to delete on our side.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>This app is intended for business and administrative use and is not directed at children under 18.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>If the app's handling of data ever changes, for example if a feature that connects to the internet is added, we will update this policy before that version is released and show a revised "last updated" date on this page.</p>
+
+      <h2>Contact Us</h2>
+      <p>Questions about this policy or about the app? Contact Amandeep Singh at:</p>
+      <p><a href="mailto:amanwarwal888@gmail.com">amanwarwal888@gmail.com</a></p>
+      <p>Postal address and phone numbers are on the <a href="contact.html">Contact</a> page.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; <span data-year></span> Amandeep Singh. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
